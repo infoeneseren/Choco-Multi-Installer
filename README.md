@@ -52,6 +52,7 @@ Chocolatey Multi Installer, Windows işletim sistemi için geliştirilmiş, bird
 - Visual Studio Code
 - FileZilla
 - Node.js LTS
+- Jdk 17
 - PowerToys
 - Brave Browser
 - Intel Driver & Support Assistant

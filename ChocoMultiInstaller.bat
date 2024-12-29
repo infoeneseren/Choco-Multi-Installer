@@ -4,33 +4,6 @@ chcp 65001 >nul
 setlocal EnableDelayedExpansion
 title Chocolatey Program Yükleyici
 
-:: Banner ve krediler
-color 0a
-echo.
-echo.
-echo.
-echo   ╔════════════════════════════════════════════════════════════════════════════════════════════════╗
-echo   ║                                                                                                ║
-echo   ║      ██████╗██╗  ██╗ ██████╗  ██████╗ ██████╗     ███╗   ███╗██╗   ██╗██╗     ████████╗██╗     ║
-echo   ║     ██╔════╝██║  ██║██╔═══██╗██╔════╝██╔═══██╗    ████╗ ████║██║   ██║██║     ╚══██╔══╝██║     ║
-echo   ║     ██║     ███████║██║   ██║██║     ██║   ██║    ██╔████╔██║██║   ██║██║        ██║   ██║     ║
-echo   ║     ██║     ██╔══██║██║   ██║██║     ██║   ██║    ██║╚██╔╝██║██║   ██║██║        ██║   ██║     ║
-echo   ║     ╚██████╗██║  ██║╚██████╔╝╚██████╗╚██████╔╝    ██║ ╚═╝ ██║╚██████╔╝███████╗   ██║   ██║     ║
-echo   ║      ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═════╝     ╚═╝     ╚═╝ ╚═════╝ ╚══════╝   ╚═╝   ╚═╝     ║
-echo   ║                                                                                                ║
-echo   ║              ██╗███╗   ██╗███████╗████████╗ █████╗ ██╗     ██╗     ███████╗██████╗             ║
-echo   ║              ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗██║     ██║     ██╔════╝██╔══██╗            ║
-echo   ║              ██║██╔██╗ ██║███████╗   ██║   ███████║██║     ██║     █████╗  ██████╔╝            ║
-echo   ║              ██║██║╚██╗██║╚════██║   ██║   ██╔══██║██║     ██║     ██╔══╝  ██╔══██╗            ║
-echo   ║              ██║██║ ╚████║███████║   ██║   ██║  ██║███████╗███████╗███████╗██║  ██║            ║
-echo   ║              ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝            ║
-echo   ║                                                                                                ║
-echo   ║                                    CHOCOLATEY MULTI INSTALLER                                  ║ 
-echo   ║                            Developed by: https://github.com/EnesER3N                           ║
-echo   ║                                         Version: 1.0.0                                         ║ 
-echo   ╚════════════════════════════════════════════════════════════════════════════════════════════════╝
-echo.
-
 :: Bat dosyasının konumunu al
 cd /d "%~dp0"
 
@@ -47,7 +20,7 @@ if %errorLevel% NEQ 0 (
 set "start_time=%time%"
 
 :: Default program listesi
-set "all_programs=googlechrome firefox python3 notepadplusplus.install 7zip.install teamviewer git.install vlc git malwarebytes vscode filezilla nodejs-lts powertoys brave intel-dsa anydesk telegram.install discord.install zen-browser termius mobaxterm steam androidstudio"
+set "all_programs=googlechrome firefox python3 notepadplusplus.install 7zip.install teamviewer git.install vlc git malwarebytes vscode filezilla nodejs-lts microsoft-openjdk17 powertoys brave intel-dsa anydesk telegram.install discord.install zen-browser termius mobaxterm steam androidstudio"
 
 :main
 cls
