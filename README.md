@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/EnesER3N Choco-Multi-Installer)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/EnesER3N/Choco-Multi-Installer)
 ![GitHub](https://img.shields.io/github/license/EnesER3N/Choco-Multi-Installer)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)
 ![Batch](https://img.shields.io/badge/Batch-4D4D4D?style=flat&logo=windows&logoColor=white)
@@ -97,9 +97,19 @@ Bu script:
    git clone https://github.com/EnesER3N/Choco-Multi-Installer.git
    cd Choco-Multi-Installer
    ```
-2. Feature branch'i oluşturun (`git checkout -b feature/YeniOzellik`)
-3. Değişikliklerinizi commit edin (`git add .`, `git commit -m "feat: Yeni özellik eklendi"`)
-4. Branch'inizi push edin (`git push origin feature/YeniOzellik`)
+2. Feature branch'i oluşturun 
+    ```bash
+    git checkout -b feature/YeniOzellik`
+    ```
+3. Değişikliklerinizi commit edin 
+    ```bash 
+    git add . 
+    git commit -m "feat: Yeni özellik eklendi"
+    ```
+4. Branch'inizi push edin 
+    ```bash 
+    git push origin feature/YeniOzellik 
+    ``` 
 5. Pull Request oluşturun.
 
 ## 📝 Lisans
