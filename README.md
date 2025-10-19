@@ -1,5 +1,5 @@
 # 🚀 Chocolatey Multi Installer
- 
+
 <div align="center">
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EnesER3N/Choco-Multi-Installer)
